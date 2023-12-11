@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-
+import { CgFileDocument } from "react-icons/cg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -86,12 +86,21 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <MdOutlineAddHomeWork 
+                <MdOutlineAddHomeWork
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Experience
               </Nav.Link>
             </Nav.Item>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1TrTuBzwFErRp8Pw1_PvRMyeafLrXpYsN/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => updateExpanded(false)}
+            >
+                <CgFileDocument style={{ marginBottom: "2px" }} />Resume
+            </Nav.Link>
+
 
             <Nav.Item className="fork-btn">
               <Button
