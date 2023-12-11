@@ -8,7 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import covidinfo from "../../Assets/Projects/covidinfo.png"
-
+import  contango from "../../Assets/Projects/contango.png";
+import mindology from "../../Assets/Projects/mindology.png";
+import sacred from "../../Assets/Projects/sacred.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,42 +28,44 @@ function Projects() {
               imgPath={covidinfo}
               isBlog={false}
               title="Covid Info"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="A web application that serves as a repository of pan-India updated
+              covid 19 resources and information, with clearly demarcated sections for
+              each resource like oxygen, ambulance etc."
+              ghLink="https://github.com/The-Unleashed-Club/covid-resources"
+              demoLink="https://covidresourcess.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={contango}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Contango"
+              description="Contango is a board game that allows you to grow your investment empire alongside other players. The goal is to hand pick investments that will reap rewards long into the future and help pave the way to financial freedom."
+              ghLink=""
+              demoLink="https://play.google.com/store/apps/details?id=com.contango.contango"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={mindology}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Mindology"
+              description="Mindology is a platform or service designed to help individuals explore and understand their personalities in a comprehensive way. The focus seems to be on leveraging advanced personality detection technology to unlock unique strengths and provide deep insights into various personality traits."
+              ghLink=""
+              demoLink="https://mindology.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={sacred}
               isBlog={false}
-              title="Plant AI"
+              title="Sacred Chank Productions"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="Scarred Chank Productions: A premier film distribution company specializing in foreign countries."
+              demoLink="https://sacredchankproductions.com/"
             />
           </Col>
 
