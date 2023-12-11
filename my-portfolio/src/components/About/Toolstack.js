@@ -5,7 +5,7 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
+  
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 function Toolstack() {
