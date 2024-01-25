@@ -17,7 +17,6 @@ function Experience() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kylo}
-              isBlog={false}
               title="Kylo Apps"
               description="Frontend Developer"
                demoLink="https://kyloapps.com/"
@@ -27,10 +26,8 @@ function Experience() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={creed}
-              isBlog={false}
               title="Creed Essentials"
               description="Software Developer"
-             
               demoLink="https://creedessential.com/"
             />
           </Col>

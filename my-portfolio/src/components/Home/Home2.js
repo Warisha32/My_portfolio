@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  
+
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
@@ -19,20 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             
-Passionate about Software Development,  🤷‍♂️
+
+              Passionate about Software Development,  🤷‍♂️
               <br />
-              <br />I've mastered classics like  
+              <br />I've mastered classics like
               <i>
                 <b className="purple"> C++, Javascript, React Native and React. </b>
               </i>
               <br />
               <br />
               My expertise lies in crafting innovative web technologies and products using  React.js, React Native and Next.js. &nbsp;
-             
+
               <br />
               <br />
-              
+
               <i>
                 <b className="purple">Let's code the future together! 🚀</b>
               </i>
@@ -82,17 +82,13 @@ Passionate about Software Development,  🤷‍♂️
                 </a>
               </li>
               <li className="social-icons">
-  <a
-    href="mailto:warishalaique78666@gmail.com"
-    className="icon-colour  home-social-icons"
-  >
-   <FaMessage />
-  </a>
-</li>
-
-              
-
-              
+                <a
+                  href="mailto:warishalaique78666@gmail.com"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaMessage />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
